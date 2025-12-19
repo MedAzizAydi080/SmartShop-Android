@@ -28,6 +28,8 @@ fun ProductEntryScreen(
     var quantityError by remember { mutableStateOf(false) }
     var priceError by remember { mutableStateOf(false) }
 
+
+
     Scaffold(
         topBar = {
             TopAppBar(
