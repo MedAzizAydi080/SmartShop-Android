@@ -16,15 +16,18 @@ class ProductRepository(
     val allProducts: Flow<List<Product>> = productDao.getAllProducts()
 
     suspend fun insert(product: Product) {
-        // 1. Save to Local Room
-        val id = productDao.insertProduct(product)
+        // 1. Generate ID locally
+        val docRef = firestore.collection("products").document()
+        val firestoreId = docRef.id
+
+        // 2. Save to Local Room WITH firestoreId
+        val productWithFirestoreId = product.copy(firestoreId = firestoreId)
+        val id = productDao.insertProduct(productWithFirestoreId)
         
-        // 2. Sync to Firestore
+        // 3. Sync to Firestore
         try {
-            val productWithId = product.copy(id = id.toInt())
-            val docRef = firestore.collection("products").add(productWithId).await()
-            // Update local product with firestoreId
-            productDao.updateProduct(productWithId.copy(firestoreId = docRef.id))
+            val productFinal = productWithFirestoreId.copy(id = id.toInt())
+            docRef.set(productFinal).await()
         } catch (e: Exception) {
             // Handle error (e.g., log or retry later)
         }
@@ -61,6 +64,10 @@ class ProductRepository(
                 snapshot?.let { querySnapshot ->
                     for (change in querySnapshot.documentChanges) {
                         val doc = change.document
+                        
+                        // Ignore local changes (latency compensation) to prevent duplication/loops
+                        if (doc.metadata.hasPendingWrites()) continue
+
                         val firestoreId = doc.id
                         // Parse safely
                         val name = doc.getString("name") ?: ""

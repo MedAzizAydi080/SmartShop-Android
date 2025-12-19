@@ -979,3 +979,93 @@
 [debug] [2025-12-19T15:40:15.891Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/smartshop-e8d71/billingInfo [none]
 [debug] [2025-12-19T15:40:16.605Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/smartshop-e8d71/billingInfo 200
 [debug] [2025-12-19T15:40:16.605Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/smartshop-e8d71/billingInfo {"name":"projects/smartshop-e8d71/billingInfo","projectId":"smartshop-e8d71","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-19T21:54:03.096Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-19T21:54:03.099Z] > authorizing via signed-in user (azizaydi080@gmail.com)
+[debug] [2025-12-19T21:54:03.101Z] Checked if tokens are valid: false, expires at: 1766160330791
+[debug] [2025-12-19T21:54:03.101Z] Checked if tokens are valid: false, expires at: 1766160330791
+[debug] [2025-12-19T21:54:03.101Z] > refreshing access token with scopes: []
+[debug] [2025-12-19T21:54:03.104Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-12-19T21:54:03.104Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-19T21:54:03.133Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-19T21:54:03.133Z] > authorizing via signed-in user (azizaydi080@gmail.com)
+[debug] [2025-12-19T21:54:03.133Z] Checked if tokens are valid: false, expires at: 1766160330791
+[debug] [2025-12-19T21:54:03.134Z] Checked if tokens are valid: false, expires at: 1766160330791
+[debug] [2025-12-19T21:54:03.134Z] > refreshing access token with scopes: []
+[debug] [2025-12-19T21:54:03.134Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-12-19T21:54:03.134Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-19T21:54:03.343Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-12-19T21:54:03.344Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-19T21:54:03.350Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/smartshop-e8d71/billingInfo [none]
+[debug] [2025-12-19T21:54:03.355Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-12-19T21:54:03.355Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-19T21:54:03.358Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/smartshop-e8d71/billingInfo [none]
+[debug] [2025-12-19T21:54:05.804Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/smartshop-e8d71/billingInfo 200
+[debug] [2025-12-19T21:54:05.805Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/smartshop-e8d71/billingInfo {"name":"projects/smartshop-e8d71/billingInfo","projectId":"smartshop-e8d71","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-19T21:54:05.813Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:05.813Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:05.814Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:05.814Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:05.827Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:05.827Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:05.827Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:05.827Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:05.827Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-12-19T21:54:05.828Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/smartshop-e8d71
+[debug] [2025-12-19T21:54:05.829Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-12-19T21:54:05.829Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/smartshop-e8d71
+[debug] [2025-12-19T21:54:05.831Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-12-19T21:54:05.831Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/smartshop-e8d71
+[debug] [2025-12-19T21:54:05.832Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebaseio.com [none]
+[debug] [2025-12-19T21:54:05.832Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebaseio.com x-goog-quota-user=projects/smartshop-e8d71
+[debug] [2025-12-19T21:54:06.178Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/smartshop-e8d71/billingInfo 200
+[debug] [2025-12-19T21:54:06.179Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/smartshop-e8d71/billingInfo {"name":"projects/smartshop-e8d71/billingInfo","projectId":"smartshop-e8d71","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-19T21:54:06.179Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:06.180Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:06.180Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:06.180Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:06.184Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:06.184Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:06.184Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:06.184Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:06.185Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-12-19T21:54:06.185Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/smartshop-e8d71
+[debug] [2025-12-19T21:54:06.186Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-12-19T21:54:06.187Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/smartshop-e8d71
+[debug] [2025-12-19T21:54:06.188Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-12-19T21:54:06.189Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/smartshop-e8d71
+[debug] [2025-12-19T21:54:06.190Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebaseio.com [none]
+[debug] [2025-12-19T21:54:06.190Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebaseio.com x-goog-quota-user=projects/smartshop-e8d71
+[debug] [2025-12-19T21:54:06.753Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebaseio.com 403
+[debug] [2025-12-19T21:54:06.753Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebaseio.com [omitted]
+[debug] [2025-12-19T21:54:06.882Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-12-19T21:54:06.883Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-12-19T21:54:06.883Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-12-19T21:54:06.884Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-12-19T21:54:07.098Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/cloudfunctions.googleapis.com 200
+[debug] [2025-12-19T21:54:07.098Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-12-19T21:54:07.099Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-19T21:54:07.099Z] > authorizing via signed-in user (azizaydi080@gmail.com)
+[debug] [2025-12-19T21:54:07.099Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:07.099Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:07.099Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/smartshop-e8d71/billingInfo [none]
+[debug] [2025-12-19T21:54:07.192Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-12-19T21:54:07.192Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-12-19T21:54:07.199Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-12-19T21:54:07.200Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-12-19T21:54:07.201Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/cloudfunctions.googleapis.com 200
+[debug] [2025-12-19T21:54:07.201Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-12-19T21:54:07.455Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebaseio.com 403
+[debug] [2025-12-19T21:54:07.455Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/smartshop-e8d71/services/firebaseio.com [omitted]
+[debug] [2025-12-19T21:54:07.782Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/smartshop-e8d71/billingInfo 200
+[debug] [2025-12-19T21:54:07.782Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/smartshop-e8d71/billingInfo {"name":"projects/smartshop-e8d71/billingInfo","projectId":"smartshop-e8d71","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-19T21:54:07.784Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-19T21:54:07.784Z] > authorizing via signed-in user (azizaydi080@gmail.com)
+[debug] [2025-12-19T21:54:07.789Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-19T21:54:07.789Z] > authorizing via signed-in user (azizaydi080@gmail.com)
+[debug] [2025-12-19T21:54:07.789Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:07.789Z] Checked if tokens are valid: true, expires at: 1766184842355
+[debug] [2025-12-19T21:54:07.789Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/smartshop-e8d71/billingInfo [none]
+[debug] [2025-12-19T21:54:08.451Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/smartshop-e8d71/billingInfo 200
+[debug] [2025-12-19T21:54:08.451Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/smartshop-e8d71/billingInfo {"name":"projects/smartshop-e8d71/billingInfo","projectId":"smartshop-e8d71","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-19T21:54:08.453Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-19T21:54:08.453Z] > authorizing via signed-in user (azizaydi080@gmail.com)
